@@ -2,3 +2,27 @@ p {
   font-weight:bold;
   color:blue;
 }
+
+img {
+  width:98%;
+  height:90%;
+  position:fixed;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(boat2.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.9;
+ 
+ 
+}
+
