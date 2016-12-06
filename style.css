@@ -22,7 +22,31 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     opacity:0.9;
- 
- 
 }
 
+.item {
+  position: relative;
+  border: 1px solid #333;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  width: 33%;
+  height:93%;
+  display:inline-block;
+  text-align:center;
+}
+
+.item img:hover {
+    transform: scale(1.2);
+}
+
+.item img {
+    -webkit-transition: -webkit-transform;
+    transition: -webkit-transform;
+    transition: transform;
+    transition: transform, -webkit-transform;
+}
+
+.item img:hover {
+    transform: scale(1.2);
+}
