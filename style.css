@@ -1,9 +1,4 @@
-p {
-  font-weight:bold;
-  color:blue;
-}
-
-img {
+.cover {
   width:98%;
   height:90%;
   position:fixed;
@@ -14,7 +9,7 @@ img {
     background-image: url(boat2.jpg);
 
     /* Full height */
-    height: 100%; 
+    height: 89%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -22,6 +17,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     opacity:0.9;
+  
 }
 
 .item {
@@ -36,17 +32,78 @@ img {
   text-align:center;
 }
 
-.item img:hover {
-    transform: scale(1.2);
-}
-
 .item img {
     -webkit-transition: -webkit-transform;
     transition: -webkit-transform;
     transition: transform;
     transition: transform, -webkit-transform;
+    
+     -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  
+ 
+    
 }
 
 .item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    opacity:0.3;
+      
+    
 }
+
+img {
+  position:relative;
+  opacity:1;
+  
+}
+
+ .item .text {
+            /* Placing text behind images */
+            z-index: -10;     
+        
+            /* Positioning text top-left conrner in the middle of elements */
+            position: absolute;
+            top:      38%;
+            left:     15%; 
+           text-align: center;
+ }
+            
+        
+        .item .text .h1 {
+          text-align:center;
+          font-weight:bold;
+        }
+        
+        
+        
+        
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display:inline-block;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 99px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+        
+        
+          
