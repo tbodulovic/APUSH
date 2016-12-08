@@ -1,6 +1,6 @@
 .cover {
   width:98%;
-  height:90%;
+  height:95%;
   position:fixed;
 }
 
@@ -97,7 +97,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 112px;
+    padding: 12px 100px;
     text-decoration: none;
 }
 
