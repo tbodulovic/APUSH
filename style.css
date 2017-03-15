@@ -41,6 +41,42 @@ body {
   text-align:center;
 }
 
+.final {
+  position: relative;
+  border: 1px solid #333;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  width: 83.5%;
+  height:35%;
+  display:inline-block;
+  text-align:center;
+  left: 7.75%;
+}
+
+
+.final img {
+    -webkit-transition: -webkit-transform;
+    transition: -webkit-transform;
+    transition: transform;
+    transition: transform, -webkit-transform;
+
+     -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+
+
+
+}
+
+.final img:hover {
+    transform: scale(1.1);
+    opacity:0.3;
+}
+
+
+
 .item img {
     -webkit-transition: -webkit-transform;
     transition: -webkit-transform;
@@ -85,7 +121,26 @@ img {
           text-align:center;
           font-weight:bold;
         }
+        
+ .final .text {
+            /* Placing text behind images */
+            z-index: -10;
 
+            /* Positioning text top-left conrner in the middle of elements */
+            position: absolute;
+            top:      38%;
+            left:     15%;
+           text-align: center;
+ }
+
+
+        .final .text .h1 {
+          text-align:center;
+          font-weight:bold;
+        
+        }
+        
+             
 
 #nav {
   margin: 20;
