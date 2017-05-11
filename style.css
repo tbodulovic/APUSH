@@ -2,7 +2,7 @@ body {
   margin-top:0;
 }
 
-.cover {
+.cover { /* changes dimensions of cover photo */
   width:98%;
   height:95%;
   position:fixed;
@@ -29,7 +29,7 @@ body {
   margin:auto;
 }
 
-.item {
+.item { /* main  */
   position: relative;
   border: 1px solid #333;
   margin:0;
@@ -40,41 +40,6 @@ body {
   display:inline-block;
   text-align:center;
 }
-
-.final {
-  position: relative;
-  border: 1px solid #333;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  width: 83.5%;
-  height:35%;
-  display:inline-block;
-  text-align:center;
-  left: 7.75%;
-}
-
-
-.final img {
-    -webkit-transition: -webkit-transform;
-    transition: -webkit-transform;
-    transition: transform;
-    transition: transform, -webkit-transform;
-
-     -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
-
-
-
-}
-
-.final img:hover {
-    transform: scale(1.1);
-    opacity:0.3;
-}
-
 
 
 .item img {
@@ -142,7 +107,7 @@ img {
         
              
 
-#nav {
+#nav { /* navbar styling */
   margin: 20;
   background-color: #333;
   text-align: center;
@@ -173,7 +138,7 @@ li div {
   }
 }
 
-li a {
+li a { 
     display: block;
     color: white;
     text-align: center;
