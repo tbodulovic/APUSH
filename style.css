@@ -29,7 +29,7 @@ body {
   margin:auto;
 }
 
-.item { /* main  */
+.item { /* main attributes for period boxes */
   position: relative;
   border: 1px solid #333;
   margin:0;
@@ -42,7 +42,7 @@ body {
 }
 
 
-.item img {
+.item img { /* transition code that sets speed of the hover transformation  */
     -webkit-transition: -webkit-transform;
     transition: -webkit-transform;
     transition: transform;
@@ -57,7 +57,7 @@ body {
 
 }
 
-.item img:hover {
+.item img:hover { /* allows for enlargement of img upon hover  */
     transform: scale(1.1);
     opacity:0.3;
 
@@ -85,24 +85,6 @@ img {
         .item .text .h1 {
           text-align:center;
           font-weight:bold;
-        }
-        
- .final .text {
-            /* Placing text behind images */
-            z-index: -10;
-
-            /* Positioning text top-left conrner in the middle of elements */
-            position: absolute;
-            top:      38%;
-            left:     15%;
-           text-align: center;
- }
-
-
-        .final .text .h1 {
-          text-align:center;
-          font-weight:bold;
-        
         }
         
              
