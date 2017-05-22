@@ -2,9 +2,9 @@ body {
   margin-top:0;
 }
 
-.cover {
+.cover { /* changes dimensions of cover photo */
   width:98%;
-  height:90%;
+  height:95%;
   position:fixed;
 }
 
@@ -29,7 +29,7 @@ body {
   margin:auto;
 }
 
-.item {
+.item { /* main attributes for period boxes */
   position: relative;
   border: 1px solid #333;
   margin:0;
@@ -41,7 +41,8 @@ body {
   text-align:center;
 }
 
-.item img {
+
+.item img { /* transition code that sets speed of the hover transformation  */
     -webkit-transition: -webkit-transform;
     transition: -webkit-transform;
     transition: transform;
@@ -56,7 +57,7 @@ body {
 
 }
 
-.item img:hover {
+.item img:hover { /* allows for enlargement of img upon hover  */
     transform: scale(1.1);
     opacity:0.3;
 
@@ -85,9 +86,10 @@ img {
           text-align:center;
           font-weight:bold;
         }
+        
+             
 
-
-#nav {
+#nav { /* navbar styling */
   margin: 20;
   background-color: #333;
   text-align: center;
@@ -118,7 +120,7 @@ li div {
   }
 }
 
-li a {
+li a { 
     display: block;
     color: white;
     text-align: center;
